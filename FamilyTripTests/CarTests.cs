@@ -15,6 +15,10 @@ namespace FamilyTripTests
 		// Wskazówka: Użyj odpowiedniego atrybutu testów używanego w MSTest framework
 		// (https://blogs.msdn.microsoft.com/nnaderi/2007/02/01/comparing-the-mstest-and-nunit-frameworks/)
 
+        public void TestInit()
+        {
+        }
+
 		[TestMethod]
 		public void ShouldPackLuggageToTheTrunkReturnTrueWhenTrunkSizeIsEnoughForLuggage()
 		{
@@ -46,6 +50,7 @@ namespace FamilyTripTests
 		{
 			// TODO: Zadanie nr 3
 			// Napisz test jednostkowy sprawdzający metodę „PackLuggageToTheTrunk” czy rzuca wyjątek gdy podany parametr jest nieprawidłowy
+            // Wskazówka: Użyj odpowiedniego dekoratora testu, zamiast sekcji Then
 
 			// Given
 
